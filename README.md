@@ -16,6 +16,10 @@ Available variables are listed below, along with default values (see `defaults/m
 
 The name of the packge to install to get `pip` on the system. You can set to `python-pip`, for example, when using Python 2 on Ubuntu.
 
+    pip_version: pip3
+
+The version of `pip` to used running installtions. You can set to `pip2`, for example, when using Python 2 on Ubuntu.
+
     pip_install_packages: []
 
 A list of packages to install with pip. Examples below:
