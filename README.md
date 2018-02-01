@@ -12,9 +12,9 @@ On RedHat/CentOS, you may need to have EPEL installed before running this role. 
 
 Available variables are listed below, along with default values (see `defaults/main.yml`):
 
-    pip_package: python-pip
+    pip_package: python3-pip
 
-The name of the packge to install to get `pip` on the system. You can set to `python3-pip`, for example, when using Python 3 on Ubuntu.
+The name of the packge to install to get `pip` on the system. You can set to `python-pip`, for example, when using Python 2 on Ubuntu.
 
     pip_install_packages: []
 
