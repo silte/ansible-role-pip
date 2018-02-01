@@ -1,5 +1,8 @@
 ---
-# For Python 3, use python3-pip.
-pip_package: python-pip
+# For Python 2, use python-pip.
+pip_package: python3-pip
+
+# For Python 2, use pip2.
+pip_version: pip3
 
 pip_install_packages: []
